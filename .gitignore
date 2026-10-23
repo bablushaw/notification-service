@@ -1,0 +1,26 @@
+# compiled
+/dist
+/node_modules
+/coverage
+/build
+
+# env
+.env
+.env.local
+.env.*.local
+
+# real Firebase service account — commit only the .example
+static/**/pushNotification.config.json
+
+# logs
+*.log
+npm-debug.log*
+
+# IDE
+.idea
+.vscode
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
